@@ -4,11 +4,14 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  color:white;
+  
 }
 
 html,
 body {
   height: 100%;
+  width: 100%;
 }
 
 body {
@@ -16,4 +19,24 @@ body {
   font-family: system-ui, sans-serif;
   background-color: #1b1b1c;
   color: #ffffff;
+}
+
+#box1 {
+    margin: 20px;
+  width: 100px;
+  height: 100px;
+  background-color: #f87272;
+}
+
+#box2 {
+  width: 100px;
+  height: 100px;
+  background-color: #98f4a7;
+}
+
+h1{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
 }

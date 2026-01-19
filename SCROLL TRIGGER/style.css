@@ -1,0 +1,52 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  width: 100%;
+  font-family: system-ui, sans-serif;
+  background-color: #1b1b1c;
+  color: #ffffff;
+}
+
+#page1{
+  height: 100%;
+  width: 100%;
+  background-color: rgb(183, 203, 231);
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#page2{
+  height: 100%;
+  width: 100%;
+  background-color: rgb(109, 130, 160);
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#page3{
+  height: 100%;
+  width: 100%;
+  background-color: rgb(18, 74, 152);
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#box{
+  height: 300px;
+  width: 300px;
+  background-color: rgb(206, 55, 86);
+}
