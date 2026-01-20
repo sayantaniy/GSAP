@@ -1,0 +1,42 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  width: 100%;
+  font-family: system-ui, sans-serif;
+  background-color: #1b1b1c;
+  color: #ffffff;
+}
+
+#string{
+    height: 400px;
+    width: 100%;
+    background-color: rgb(43, 62, 56);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+     height: 100%;
+}
+
+svg,path{
+   height: 100%;
+   margin: 0;
+   padding: 0;
+
+  
+}
+
+h1{
+    padding: 30px 10px;
+}
