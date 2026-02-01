@@ -19,5 +19,5 @@ string.addEventListener('mouseleave', function() {
         ease: "elastic.out(1,0,2",
     })
 })
-gsap.to
+
 
